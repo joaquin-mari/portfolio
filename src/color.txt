@@ -1,0 +1,42 @@
+Role	Color
+Background	#FFFFFF
+Soft Gray Blocks / Card BG	#F2F2F2
+Text Primary	#111111
+Text Muted	#555555
+Border Hairline	#E0E0E0
+Accent: Cool Cyan	#3A86FF or even more subtle #4C8CF5
+
+
+1. Inter + Space Grotesk (Modern Developer Aesthetic)
+
+Headings: Space Grotesk (Bold / Semi-Bold)
+
+Body / UI Text: Inter (Regular / Medium)
+
+Looks like something you'd see at Linear.app, Vercel, or Supabase
+
+Matches perfectly with navy + cool grays, especially paired with clean spacing
+
+✅ Sleek, code-friendly — feels like a high-end dev tool interface
+
+2. Manrope + Inter (Clean, minimal, Scandinavian style)
+
+Headings: Manrope (Bold, slightly rounded but still sharp)
+
+Body: Inter (Regular)
+
+Manrope pairs beautifully with light gray UIs + navy accents
+
+Gives a slightly softer, premium feel — think Notion x Apple
+
+✅ Elegant but still technical — balanced and calm
+
+3. Satoshi / Circular Std Inspired (Premium Tech Agency Look)
+
+Use Case: Logos, Hero Headings — feels very premium
+
+Pair with Inter or IBM Plex Sans for body text
+
+Works especially well with deep navy backgrounds and white text for sections
+
+✅ Feels like a modern SaaS landing page — extremely clean
