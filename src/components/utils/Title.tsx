@@ -3,7 +3,11 @@ interface Props {
 }
 
 const Title = ({ text }: Props) => {
-  return <h2 className="text-3xl md:text-5xl  break-words">{text}</h2>;
+  return (
+    <h2 className="font-semibold font-playfair text-5xl whitespace-pre-line">
+      {text}
+    </h2>
+  );
 };
 
 export default Title;
