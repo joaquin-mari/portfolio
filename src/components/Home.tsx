@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="max-w-5xl gap-10 mx-auto text-left flex pt-20">
+    <div className="max-w-5xl gap-10 mx-auto text-left flex pt-25">
       <div className="space-y-5 pt-10">
         <p className="text-cool-cyan">Hola, my name is</p>
         <div className="font-playfair space-y-5">
