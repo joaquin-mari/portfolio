@@ -1,5 +1,5 @@
 import NumberSpan from "./NumberSpan";
-import CyanButton from "./CyanButton";
+import CyanButton from "../utils/CyanButton";
 
 export default function Header() {
   return (
