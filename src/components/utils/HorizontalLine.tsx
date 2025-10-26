@@ -1,6 +1,6 @@
 interface Props {
   width: string;
-  color: string;
+  color?: string;
 }
 
 const HorizontalLine = ({ width, color = "bg-cool-cyan" }: Props) => {

@@ -1,6 +1,4 @@
-import Title from "../utils/Title";
-import NumberSpan from "../utils/NumberSpan";
-import HorizontalLine from "../utils/HorizontalLine";
+import Heading from "../utils/Heading";
 import Paragraph from "../utils/Paragraph";
 
 const AboutMe = () => {
@@ -13,13 +11,7 @@ My main focus today are working on my bachelor thesis and work part time as a We
   return (
     <section className="flex items-center justify-center min-h-screen w-full">
       <div className="w-4xl align-left px-5">
-        <div className="flex items-center gap-15 text-left">
-          <div className="flex gap-5 items-baseline">
-            <NumberSpan text="1" size="4xl" />
-            <Title text="About Me" />
-          </div>
-          <HorizontalLine width="w-full" />
-        </div>
+        <Heading number="1" title="About Me" />
         <Paragraph text={paragraph_text} />
       </div>
     </section>

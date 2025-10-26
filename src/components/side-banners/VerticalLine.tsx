@@ -1,11 +1,11 @@
 interface Props {
-  height: string;
+  height?: string;
   color?: string;
   width?: string;
 }
 
 export default function VerticalLine({
-  height,
+  height = "h-full",
   color = "bg-gray-border",
   width = "w-1",
 }: Props) {
