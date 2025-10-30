@@ -1,37 +1,56 @@
 import CyanButton from "../utils/CyanButton";
+import type Project from "./ProjectInterface";
 
-export default function ProjectEntry() {
+interface Props {
+  project: Project;
+  isReversed: boolean;
+}
+
+export default function ProjectEntry({ project, isReversed }: Props) {
   return (
-    <div className="text-end  max-w-xl space-y-5 ml-auto mt-20">
-      <span className="text-cool-cyan font-recursive text-xl">
-        Bachelor Thesis
-      </span>
-      <h3 className="font-playfair text-5xl font-bold">
-        ML in the Health Sector
-      </h3>
-      <div className="bg-soft-gray p-5 text-lg">
-        <p>
-          Training of Machine Learning to help identify dangerous electrical
-          signals in muscles in order to help diagnose dangerous Neurological
-          illnesses This project is being performed in cooperation with Augsburg
-          Hospital and is the work of my bachelor thesis
-        </p>
+    <div
+      className={`relative flex flex-col md:flex-row items-center gap-10 mt-20 ${
+        isReversed ? "md:flex-row-reverse text-left" : "text-right"
+      }`}
+    >
+      <div className="md:w-1/2 relative">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full rounded-2xl shadow-lg object-cover"
+        />
       </div>
-      <ul className="flex text-center max-w-lg ml-auto">
-        <li className="flex-1" key={1}>
-          ML
-        </li>
-        <li className="flex-1" key={2}>
-          Data Anlysis
-        </li>
-        <li className="flex-1" key={3}>
-          Pandas
-        </li>
-        <li className="flex-1" key={4}>
-          Signal Processing
-        </li>
-      </ul>
-      <CyanButton text={"Learn More"} />
+      <div
+        className={`md:w-1/2 max-w-xl space-y-5 ${
+          isReversed ? "ml-0 md:mr-auto" : "ml-auto"
+        }`}
+      >
+        <span className="text-cool-cyan font-recursive text-xl">
+          {project.description}
+        </span>
+
+        <h3 className="font-playfair text-5xl font-bold">{project.title}</h3>
+
+        <div className="bg-soft-gray p-5 text-md rounded-xl">
+          <p>{project.text}</p>
+        </div>
+
+        <ul
+          className={`flex flex-wrap text-md gap-3 ${
+            isReversed ? "justify-start" : "justify-end"
+          }`}
+        >
+          {project.tags.map((tag, index) => (
+            <li
+              key={index}
+              className="px-3 py-1 bg-soft-gray rounded-lg text-sm font-medium"
+            >
+              {tag}
+            </li>
+          ))}
+        </ul>
+        <CyanButton text="Learn More" />
+      </div>
     </div>
   );
 }
