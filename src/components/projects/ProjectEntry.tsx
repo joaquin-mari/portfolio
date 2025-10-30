@@ -41,10 +41,7 @@ export default function ProjectEntry({ project, isReversed }: Props) {
           }`}
         >
           {project.tags.map((tag, index) => (
-            <li
-              key={index}
-              className="px-3 py-1 bg-soft-gray rounded-lg text-sm font-medium"
-            >
+            <li key={index} className="px-3 py-1 text-sm font-medium">
               {tag}
             </li>
           ))}

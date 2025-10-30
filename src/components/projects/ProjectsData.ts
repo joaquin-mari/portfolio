@@ -4,8 +4,8 @@ export const projects: Project[] = [
   {
     description: "Bachelor Thesis",
     title: "ML in the Health Sector",
-    text: "Training ML models to identify dangerous electrical signals in muscles...",
-    tags: ["ML", "Pandas", "Signal Processing"],
+    text: "Training of Machine Learning to help identify dangerous electrical signals in muscles in order to help diagnose dangerous Neurological illnesses This project is being performed in cooperation with Augsburg’s Hospital and is the work of my bachelor thesis",
+    tags: ["ML", "Data Engineering", "Pandas", "Signal Processing"],
     image: "/Thesis-Image.png",
   },
   {

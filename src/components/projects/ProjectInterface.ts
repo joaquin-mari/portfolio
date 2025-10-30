@@ -1,7 +1,7 @@
 export default interface Project {
-  description: string;
+  description?: string;
   title: string;
   text: string;
   tags: string[];
-  image: string;
+  image?: string;
 }
