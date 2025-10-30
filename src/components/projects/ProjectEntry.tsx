@@ -31,7 +31,7 @@ export default function ProjectEntry({ project, isReversed }: Props) {
 
         <h3 className="font-playfair text-5xl font-bold">{project.title}</h3>
 
-        <div className="bg-soft-gray p-5 text-md rounded-xl">
+        <div className="bg-gray-box p-5 text-md rounded-xl">
           <p>{project.text}</p>
         </div>
 
@@ -41,7 +41,10 @@ export default function ProjectEntry({ project, isReversed }: Props) {
           }`}
         >
           {project.tags.map((tag, index) => (
-            <li key={index} className="px-3 py-1 text-sm font-medium">
+            <li
+              key={index}
+              className="px-3 py-1 text-sm font-medium font-recursive"
+            >
               {tag}
             </li>
           ))}

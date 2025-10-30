@@ -9,7 +9,7 @@ export const gitData: Project[] = [
   {
     title: "Portfolio Website",
     text: "Design and Implementation of this portfolio website",
-    tags: ["React", "TypeScript", "Tailwind", "Figma"],
+    tags: ["Astro", "React", "TypeScript", "Tailwind", "Figma"],
   },
 ];
 
