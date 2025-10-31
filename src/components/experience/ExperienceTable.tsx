@@ -12,7 +12,7 @@ export default function ExperienceTable({ item }: Props) {
         <span className="text-cool-cyan font-inter">@{item.company}</span>
       </h3>
       <p className="text-md font-bold italic">{item.period}</p>
-      <ul className="px-5 py-10 space-y-2">
+      <ul className="px-5 py-10 space-y-2 text-gray-border">
         {item.details.map((line, index) => (
           <li key={index}>
             <div className="flex align-self">

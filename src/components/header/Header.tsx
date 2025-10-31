@@ -5,27 +5,27 @@ export default function Header() {
   return (
     <header className="w-screen bg-yellow flex justify-between px-10 py-5 font-playfair">
       <img src="/logo.png" alt="Icon Image" className="w-13 h-10" />
-      <div className="flex gap-5 items-center">
+      <nav className="flex gap-5 items-center">
         <ol className="flex gap-5 ">
-          <li className="hover:text-cool-cyan cursor-pointer">
+          <a href="#about" className="hover:text-cool-cyan cursor-pointer">
             <NumberSpan text="1" />
             About
-          </li>
-          <li className="hover:text-cool-cyan cursor-pointer">
+          </a>
+          <a href="#experience" className="hover:text-cool-cyan cursor-pointer">
             <NumberSpan text="2" />
             Experience
-          </li>
-          <li className="hover:text-cool-cyan cursor-pointer">
+          </a>
+          <a href="#work" className="hover:text-cool-cyan cursor-pointer">
             <NumberSpan text="3" />
             Work
-          </li>
-          <li className="hover:text-cool-cyan cursor-pointer">
+          </a>
+          <a href="#contact" className="hover:text-cool-cyan cursor-pointer">
             <NumberSpan text="4" />
             Contact
-          </li>
+          </a>
         </ol>
         <CyanButton text="Resume" />
-      </div>
+      </nav>
     </header>
   );
 }

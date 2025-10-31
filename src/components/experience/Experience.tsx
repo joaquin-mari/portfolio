@@ -38,7 +38,10 @@ export default function Experience() {
   ];
 
   return (
-    <section className="flex items-center justify-center min-h-screen w-full">
+    <section
+      id="experience"
+      className="flex items-center justify-center min-h-screen w-full py-20"
+    >
       <div className="w-4xl align-left px-5">
         <Heading number="2" title="Where I've worked" />
         <ClickableList items={propItems} />

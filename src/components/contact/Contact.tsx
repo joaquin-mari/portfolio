@@ -2,7 +2,10 @@ import CyanButton from "../utils/CyanButton";
 
 export default function Contact() {
   return (
-    <section className="flex items-center justify-center min-h-screen w-full flex-col text-center gap-5">
+    <section
+      id="contact"
+      className="flex items-center justify-center min-h-screen w-full flex-col text-center gap-5 py-20"
+    >
       <span className="text-cool-cyan text-inter text-xl">
         o.4 What's next?
       </span>

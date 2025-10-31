@@ -9,7 +9,10 @@ Fast Forward to today, I have had the opportunity to leave my home country Spain
 My main focus today are working on my bachelor thesis and work part time as a Web Developer.`;
 
   return (
-    <section className="flex items-center justify-center min-h-screen w-full">
+    <section
+      id="about"
+      className="flex items-center justify-center min-h-screen w-full py-20"
+    >
       <div className="w-4xl align-left px-5">
         <Heading number="1" title="About Me" />
         <Paragraph text={paragraph_text} />

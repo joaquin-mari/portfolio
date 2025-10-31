@@ -31,8 +31,17 @@ export default function ProjectEntry({ project, isReversed }: Props) {
 
         <h3 className="font-playfair text-5xl font-bold">{project.title}</h3>
 
-        <div className="bg-gray-box p-5 text-md rounded-xl">
-          <p>{project.text}</p>
+        <div className="bg-gray-box p-5 text-md rounded-xl text-gray-border">
+          <p>
+            {project.text.map((segment, index) => (
+              <span
+                key={index}
+                className={segment.highlight ? "text-cool-cyan" : ""}
+              >
+                {segment.content}
+              </span>
+            ))}
+          </p>
         </div>
 
         <ul
