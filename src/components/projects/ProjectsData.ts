@@ -16,6 +16,7 @@ export const projects: Project[] = [
     ],
     tags: ["ML", "Data Engineering", "Pandas", "Signal Processing"],
     image: "/Thesis-Image.png",
+    link: "https://github.com/joaquin-mari/EMG-Thesis",
   },
   {
     description: "Featured Project",
@@ -35,5 +36,6 @@ export const projects: Project[] = [
     ],
     tags: ["RAG", "Python", "NLP", "Langchain"],
     image: "/BYOVA.png",
+    link: "https://github.com/alexanderfeix/new_at_the_tha",
   },
 ];

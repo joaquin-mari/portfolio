@@ -4,4 +4,5 @@ export default interface Project {
   text: { content: string; highlight?: boolean }[];
   tags: string[];
   image?: string;
+  link: string;
 }

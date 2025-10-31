@@ -1,4 +1,5 @@
 import CyanButton from "../utils/CyanButton";
+import goToLink from "../utils/goToLink";
 import type Project from "./ProjectInterface";
 
 interface Props {
@@ -58,7 +59,7 @@ export default function ProjectEntry({ project, isReversed }: Props) {
             </li>
           ))}
         </ul>
-        <CyanButton text="Learn More" />
+        <CyanButton text="Learn More" onClick={() => goToLink(project.link)} />
       </div>
     </div>
   );
