@@ -24,7 +24,13 @@ export default function Header() {
             Contact
           </a>
         </ol>
-        <CyanButton text="Resume" />
+        <a
+          href="/Resume Joaquin Mari Marcos.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <CyanButton text="Resume" />
+        </a>
       </nav>
     </header>
   );

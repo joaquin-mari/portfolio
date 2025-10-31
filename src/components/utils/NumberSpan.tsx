@@ -4,5 +4,5 @@ interface Props {
 }
 
 export default function NumberSpan({ text, size }: Props) {
-  return <span className={`text-cool-cyan text-${size}`}>{text}. </span>;
+  return <span className={`text-cool-cyan ${size}`}>{text}. </span>;
 }

@@ -17,7 +17,13 @@ export default function Contact() {
           with me!
         </p>
       </div>
-      <CyanButton text={"Say Hello"} size="lg" />
+      <a
+        href="mailto:joaquin.mari.marcos@gmail.com.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <CyanButton text="Say Hello" size="lg" />
+      </a>
     </section>
   );
 }
