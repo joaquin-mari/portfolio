@@ -18,7 +18,7 @@ export default function Home() {
           </h3>
         </div>
         <img
-          src="/picture.png"
+          src="/joaquin-mari.png"
           alt="portfolio picture"
           className="lg:w-100 lg:h-100 sm:w-150 sm:lg-150"
         />
