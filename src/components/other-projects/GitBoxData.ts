@@ -14,7 +14,12 @@ export const gitData: Project[] = [
   },
   {
     title: "Portfolio Website",
-    text: [{ content: "Design and Implementation of this portfolio website" }],
+    text: [
+      {
+        content:
+          "Design and implementation and Deployment of this portfolio website both in desktop and mobile friendly versions",
+      },
+    ],
     tags: ["Astro", "React", "TypeScript", "Tailwind", "Figma"],
     link: "https://github.com/joaquin-mari/portfolio",
   },

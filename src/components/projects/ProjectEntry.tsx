@@ -10,8 +10,8 @@ interface Props {
 export default function ProjectEntry({ project, isReversed }: Props) {
   return (
     <div
-      className={`relative flex flex-col md:flex-row items-center gap-10 mt-20 ${
-        isReversed ? "md:flex-row-reverse text-left" : "text-right"
+      className={`sm:hidden lg:flex relative flex flex-col md:flex-row items-center gap-10 mt-20 ${
+        isReversed ? "flex-row-reverse text-left" : "text-right"
       }`}
     >
       <div className="md:w-1/2 relative">

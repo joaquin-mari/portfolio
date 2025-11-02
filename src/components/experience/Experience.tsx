@@ -27,7 +27,7 @@ export default function Experience() {
     },
     {
       company: "THA",
-      title: "Programming Teaching Assistant",
+      title: "Teaching Assistant",
       period: "October 2023 - July 2024",
       details: [
         "Assisted students in subjects of Programming 1 and 2 at Augsburg's University of Applied Sciences",
@@ -42,7 +42,7 @@ export default function Experience() {
       id="experience"
       className="flex items-center justify-center min-h-screen w-full py-20"
     >
-      <div className="w-4xl align-left px-5">
+      <div className="w-4xl px-5 ">
         <Heading number="2" title="Where I've worked" />
         <ClickableList items={propItems} />
       </div>

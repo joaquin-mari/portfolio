@@ -7,7 +7,7 @@ interface Props {
 }
 export default function ItemsColumn({ items, setItem, selectedItem }: Props) {
   return (
-    <ul className="w-45">
+    <ul className="w-45 sm:hidden lg:block">
       {items.map((item, index) => {
         const isSelected = selectedItem === item;
 
