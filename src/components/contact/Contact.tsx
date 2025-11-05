@@ -20,7 +20,7 @@ export default function Contact() {
         </p>
       </div>
       <a
-        href="mailto:joaquin.mari.marcos@gmail.com.com"
+        href="mailto:joaquin.mari.marcos@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
       >

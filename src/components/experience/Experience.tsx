@@ -12,7 +12,7 @@ export default function Experience() {
         "Working on a dashboard for display of flight data",
         "Live data integration",
         "AI smart search feature",
-        "Stack: FastAPI, React, PostgreSQL, Web Sockets, Pandas, Tailwind",
+        "Stack: FastAPI, React, PostgreSQL, Kafka, Pandas, Tailwind",
       ],
     },
     {

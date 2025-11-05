@@ -36,6 +36,6 @@ export const projects: Project[] = [
     ],
     tags: ["RAG", "Python", "NLP", "Langchain"],
     image: "/BYOVA.png",
-    link: "https://github.com/alexanderfeix/new_at_the_tha",
+    link: "https://github.com/joaquin-mari/new_at_the_tha",
   },
 ];

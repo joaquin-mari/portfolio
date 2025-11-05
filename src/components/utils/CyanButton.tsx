@@ -13,7 +13,15 @@ export default function CyanButton({ text, size = "md", onClick }: Props) {
 
   return (
     <button
-      className={`border-2 border-cool-cyan rounded text-cool-cyan cursor-pointer transition-all duration-300 ease-in-out hover:bg-cool-cyan hover:text-white active:scale-95 ${sizeClasses[size]}`}
+      className={`
+  border-2 border-cool-cyan rounded text-cool-cyan cursor-pointer 
+  transition-all duration-300 ease-in-out 
+  hover:bg-cool-cyan hover:text-white 
+  active:scale-95 
+  ${sizeClasses[size]}
+  sm:hover:bg-cool-cyan sm:hover:text-white 
+  active:bg-cool-cyan active:text-white
+`}
       onClick={onClick}
     >
       {text}
