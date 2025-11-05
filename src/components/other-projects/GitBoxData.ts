@@ -6,22 +6,22 @@ export const gitData: Project[] = [
     text: [
       {
         content:
-          "Attended to event HackaTUM with my friends and built smart Intellij plug-in that helps users optimize Java projects",
+          "Participated in HackaTUM with friends and built a smart IntelliJ plug-in that helps users optimize Java projects efficiently.",
       },
     ],
     tags: ["AI Agents", "GPT-4.0", "Python", "Flask", "IntelliJ"],
-    link: "https://github.com/anish-dev21/intelliJent-hackaTUM24",
+    link: "[https://github.com/anish-dev21/intelliJent-hackaTUM24](https://github.com/anish-dev21/intelliJent-hackaTUM24)",
   },
   {
     title: "Portfolio Website",
     text: [
       {
         content:
-          "Design and implementation and Deployment of this portfolio website both in desktop and mobile friendly versions",
+          "Designed, implemented, and deployed this portfolio website, ensuring it works seamlessly on both desktop and mobile devices.",
       },
     ],
     tags: ["Astro", "React", "TypeScript", "Tailwind", "Figma"],
-    link: "https://github.com/joaquin-mari/portfolio",
+    link: "[https://github.com/joaquin-mari/portfolio](https://github.com/joaquin-mari/portfolio)",
   },
 ];
 

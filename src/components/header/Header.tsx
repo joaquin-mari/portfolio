@@ -3,7 +3,7 @@ import CyanButton from "../utils/CyanButton";
 
 export default function Header() {
   return (
-    <header className="absolute w-screen bg-yellow flex justify-between px-10 py-5 font-playfair sm:text-2xl lg:text-sm">
+    <header className="absolute w-screen bg-yellow flex justify-between px-10 py-5 font-playfair sm:text-2xl lg:text-sm items-end">
       <img src="/logo.png" alt="Icon Image" className="w-10 h-10" />
       <nav className="flex gap-5 items-center">
         <ol className="flex gap-5 ">

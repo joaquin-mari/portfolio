@@ -5,18 +5,18 @@ export const projects: Project[] = [
     description: "Bachelor Thesis",
     title: "ML in the Health Sector",
     text: [
-      { content: "Training of Machine Learning to help identify " },
+      { content: "Training machine learning models to help detect " },
       { content: "dangerous electrical signals", highlight: true },
-      { content: " in muscles in order to help diagnose " },
-      { content: "Neurological illnesses", highlight: true },
+      { content: " in muscles, with the goal of supporting the diagnosis of " },
+      { content: "neurological disorders", highlight: true },
       {
         content:
-          ". This project is being performed in cooperation with Augsburgs Hospital and is the work of my bachelor thesis",
+          ". This project is carried out in collaboration with Augsburg Hospital as part of my bachelor thesis.",
       },
     ],
     tags: ["ML", "Data Engineering", "Pandas", "Signal Processing"],
     image: "/Thesis-Image.png",
-    link: "https://github.com/joaquin-mari/EMG-Thesis",
+    link: "[https://github.com/joaquin-mari/EMG-Thesis](https://github.com/joaquin-mari/EMG-Thesis)",
   },
   {
     description: "Featured Project",
@@ -24,18 +24,18 @@ export const projects: Project[] = [
     text: [
       {
         content:
-          "Building of Chat Assistant for the website of Augsburgs University of Applied Sciences. Help answer ",
+          "Developed a chat assistant for the Augsburg University website to help answer ",
       },
       { content: "student questions", highlight: true },
       {
         content:
-          " and retrieve important information found in the website. Collection of data from the website and design, building and testing of ",
+          " and provide important information from the website. The project involved data collection, design, implementation, and testing of a ",
       },
       { content: "RAG system", highlight: true },
-      { content: " for correct answering of questions." },
+      { content: " to ensure accurate responses." },
     ],
     tags: ["RAG", "Python", "NLP", "Langchain"],
     image: "/BYOVA.png",
-    link: "https://github.com/joaquin-mari/new_at_the_tha",
+    link: "[https://github.com/joaquin-mari/new_at_the_tha](https://github.com/joaquin-mari/new_at_the_tha)",
   },
 ];
