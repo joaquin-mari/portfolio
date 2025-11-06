@@ -10,7 +10,7 @@ interface Props {
 export default function ProjectEntryMobile({ project, isReversed }: Props) {
   return (
     <div
-      className={`sm:flex lg:hidden relative flex flex-col items-center gap-2 0 mt-20 text-center
+      className={`sm:flex lg:hidden relative flex flex-col items-center gap-2 0 py-50 text-center
       }`}
     >
       <div className="max-w-2xl space-y-10">
