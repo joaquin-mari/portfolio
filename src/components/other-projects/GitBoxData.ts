@@ -10,7 +10,7 @@ export const gitData: Project[] = [
       },
     ],
     tags: ["AI Agents", "GPT-4.0", "Python", "Flask", "IntelliJ"],
-    link: "[https://github.com/anish-dev21/intelliJent-hackaTUM24](https://github.com/anish-dev21/intelliJent-hackaTUM24)",
+    link: "https://github.com/anish-dev21/intelliJent-hackaTUM24",
   },
   {
     title: "Portfolio Website",
@@ -21,7 +21,7 @@ export const gitData: Project[] = [
       },
     ],
     tags: ["Astro", "React", "TypeScript", "Tailwind", "Figma"],
-    link: "[https://github.com/joaquin-mari/portfolio](https://github.com/joaquin-mari/portfolio)",
+    link: "https://github.com/joaquin-mari/portfolio",
   },
 ];
 
