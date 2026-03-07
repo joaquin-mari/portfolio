@@ -13,7 +13,7 @@ export default function Home() {
             </h2>
           </div>
           <h3 className="text-text-muted lg:text-base sm:text-xl">
-            I am a last year university student and part time web developer at
+            I am a business-informatics graduate and part time web developer at
             Airbus
           </h3>
         </div>

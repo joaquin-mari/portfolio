@@ -25,7 +25,7 @@ export default function Header() {
           </a>
         </ol>
         <a
-          href="/Resume Joaquin Mari Marcos.pdf"
+          href="/Lebenslauf Joaquin Mari.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
