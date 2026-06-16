@@ -38,4 +38,26 @@ export const projects: Project[] = [
     image: "/BYOVA.png",
     link: "https://github.com/joaquin-mari/new_at_the_tha",
   },
+  {
+    description: "DevOps Project",
+    title: "GuitarHero – DevOps Learning Platform",
+    text: [
+      {
+        content:
+          "Built a full-stack guitar practice tracking application designed primarily as a ",
+      },
+      { content: "DevOps learning project", highlight: true },
+      {
+        content:
+          ". The system focuses on deploying and operating a complete infrastructure on a Linux VPS server, including containerized services, CI/CD pipelines, and production monitoring with ",
+      },
+      { content: "Prometheus and Grafana", highlight: true },
+      {
+        content: " to track application and system metrics in real time.",
+      },
+    ],
+    tags: ["Docker", "CI/CD", "Prometheus", "Grafana", "Linux"],
+    image: "/GuitarHero.png",
+    link: "https://github.com/joaquin-mari/GuitarHero",
+  },
 ];

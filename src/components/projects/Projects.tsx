@@ -23,6 +23,11 @@ export default function Projects() {
               project={project}
               isReversed={index % 2 != 0}
             />
+            <ProjectEntryMobile
+              key={index}
+              project={project}
+              isReversed={index % 2 != 0}
+            />
           </>
         ))}
       </div>
