@@ -7,7 +7,8 @@ import RightBanner from "../components/side-banners/RightBanner.tsx";
 import AboutMe from "../components/about-me/AboutMe";
 import Experience from "../components/experience/Experience"
 import Projects from "../components/projects/Projects";
-import Other from "../components/other-projects/Other";
+import OtherProjects from "../components/other-projects/OtherProjects.tsx";
+import Other from "../components/other/Other";
 import Contact from "../components/contact/Contact";
 ---
 
@@ -25,7 +26,8 @@ import Contact from "../components/contact/Contact";
       <AboutMe/>
       <Experience client:load/>
       <Projects client:load/>
-      <Other client:load/>
+      <OtherProjects client:load/>
+      <Other client:load>
       <Contact>
     </div>
   </body>

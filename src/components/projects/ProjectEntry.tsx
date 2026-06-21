@@ -1,6 +1,9 @@
 import CyanButton from "../utils/CyanButton";
 import goToLink from "../utils/goToLink";
+import ProjectTitle from "../utils/ProjectTitle";
 import type Project from "./ProjectInterface";
+import BlueTag from "../utils/BlueTag";
+import StackList from "../utils/StackList";
 
 interface Props {
   project: Project;
@@ -26,12 +29,9 @@ export default function ProjectEntry({ project, isReversed }: Props) {
           isReversed ? "ml-0 md:mr-auto" : "ml-auto"
         }`}
       >
-        <span className="text-cool-cyan font-recursive text-xl">
-          {project.description}
-        </span>
+        <BlueTag tag={project.description || ""}></BlueTag>
 
-        <h3 className="font-playfair text-5xl font-bold">{project.title}</h3>
-
+        <ProjectTitle title={project.title}></ProjectTitle>
         <div className="bg-gray-box p-5 text-md rounded-xl text-gray-border">
           <p>
             {project.text.map((segment, index) => (
@@ -44,21 +44,7 @@ export default function ProjectEntry({ project, isReversed }: Props) {
             ))}
           </p>
         </div>
-
-        <ul
-          className={`flex flex-wrap text-md gap-3 ${
-            isReversed ? "justify-start" : "justify-end"
-          }`}
-        >
-          {project.tags.map((tag, index) => (
-            <li
-              key={index}
-              className="px-3 py-1 text-sm font-medium font-recursive"
-            >
-              {tag}
-            </li>
-          ))}
-        </ul>
+        <StackList tags={project.tags} isReversed={isReversed} />
         <CyanButton text="Learn More" onClick={() => goToLink(project.link)} />
       </div>
     </div>
