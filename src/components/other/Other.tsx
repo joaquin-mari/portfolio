@@ -25,7 +25,15 @@ export default function Other() {
               alt="google cybersecurity certificate"
             />
           </div>
-          <StackList tags={["SIEM Tools", "Linux", "Python", "Bash", "SQL"]} />
+          <StackList
+            tags={[
+              "SIEM Tools",
+              "Linux",
+              "Threat Detection",
+              "Bash",
+              "Network Analysis",
+            ]}
+          />
           <a
             className="mt-5"
             href="/Google Cybersecurity Certificate Joaquin Mari.pdf"
