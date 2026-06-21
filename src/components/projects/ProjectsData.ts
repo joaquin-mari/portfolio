@@ -40,7 +40,7 @@ export const projects: Project[] = [
   },
   {
     description: "DevOps Project",
-    title: "GuitarHero – DevOps Learning Platform",
+    title: "GuitarHero - DevOps Learning Platform",
     text: [
       {
         content:

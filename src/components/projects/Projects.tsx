@@ -12,18 +12,10 @@ export default function Projects() {
       <div className="w-6xl align-left px-5">
         <Heading number="3" title={"Some things I've built"} />
         {projects.map((project, index) => (
-          <>
-            <ProjectEntry
-              key={index}
-              project={project}
-              isReversed={index % 2 != 0}
-            />
-            <ProjectEntryMobile
-              key={index}
-              project={project}
-              isReversed={index % 2 != 0}
-            />
-          </>
+          <div key={index}>
+            <ProjectEntry project={project} isReversed={index % 2 != 0} />
+            <ProjectEntryMobile project={project} isReversed={index % 2 != 0} />
+          </div>
         ))}
       </div>
     </section>

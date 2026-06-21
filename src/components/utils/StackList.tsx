@@ -14,7 +14,7 @@ export default function StackList({ tags, isReversed = false }: Props) {
         }`}
       >
         {tags.map((tag, index) => (
-          <TechnologyTag tag={tag} index={index} />
+          <TechnologyTag tag={tag} key={index} index={index} />
         ))}
       </ul>
     </>
